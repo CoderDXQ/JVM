@@ -2,6 +2,7 @@ package com.atguigu.java;
 
 /**
  * -Xms20m -Xmx20m
+ *
  * @author shkstart  shkstart@126.com
  * @create 2020  16:42
  */
