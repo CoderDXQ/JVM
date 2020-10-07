@@ -11,8 +11,9 @@ public class StackStruTest {
         int j=3;
         int k=i+j;
 
-        try {
+        try {//线程停顿6000毫秒
             Thread.sleep(6000);
+           // Thread.sleep(6);
         } catch (InterruptedException e)
         {
             e.printStackTrace();
