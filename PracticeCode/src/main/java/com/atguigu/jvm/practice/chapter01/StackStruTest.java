@@ -7,15 +7,14 @@ package com.atguigu.jvm.practice.chapter01;
  */
 public class StackStruTest {
     public static void main(String[] args) {
-        int i=2;
-        int j=3;
-        int k=i+j;
+        int i = 2;
+        int j = 3;
+        int k = i + j;
 
         try {//线程停顿6000毫秒
             Thread.sleep(6000);
-           // Thread.sleep(6);
-        } catch (InterruptedException e)
-        {
+            // Thread.sleep(6);
+        } catch (InterruptedException e) {
             e.printStackTrace();
         }
 
