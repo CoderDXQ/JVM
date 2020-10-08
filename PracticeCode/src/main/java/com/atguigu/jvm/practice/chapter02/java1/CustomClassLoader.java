@@ -18,12 +18,12 @@ public class CustomClassLoader extends ClassLoader {
                 return defineClass(name, result, 0, result.length);
             }
         } catch (FileNotFoundException e) {
-            e.printStackTrace(name);
+            e.printStackTrace();
         }
         throw new ClassNotFoundException(name);
     }
 
-    private byte[] getClassFromCustomPath(name) {
+    private byte[] getClassFromCustomPath(String name) {
         //如果指定路径的字节码文件进行了加密，则需要在此方法中进行解密操作
         //从自定义路径中加载指定类
 
