@@ -10,7 +10,7 @@ package com.atguigu.jvm.practice.chapter05.java3;
 interface Friendly {
     void sayHello();
 
-    void SayGoodbye();
+    void sayGoodbye();
 }
 
 class Dog {
