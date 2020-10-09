@@ -6,4 +6,7 @@ package com.atguigu.jvm.practice.chapter10.java;
  * @date 2020/10/7 3:20 下午
  */
 public class ObjectTest {
+    public static void main(String[] args) {
+        Object obj = new Object();
+    }
 }
