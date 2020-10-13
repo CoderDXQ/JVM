@@ -6,4 +6,12 @@ package com.atguigu.jvm.practice.chapter16.java1;
  * @date 2020/10/7 3:46 下午
  */
 public class SoftReferencetTest {
+    public static class User{
+
+
+    }
+
+    public static void main(String[] args) {
+
+    }
 }
