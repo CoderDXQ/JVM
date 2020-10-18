@@ -11,7 +11,7 @@ public class StrongReferenceTest {
         StringBuffer str1 = str;
 
         str = null;
-        System.gc();
+        System.gc();//清理str
 
         try {
             Thread.sleep(3000);
@@ -19,6 +19,7 @@ public class StrongReferenceTest {
             e.printStackTrace();
         }
 
+        System.out.println(str);
         System.out.println(str1);
     }
 }
